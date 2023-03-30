@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -31,44 +30,44 @@
             android:orientation="horizontal"
             android:layout_gravity="center_vertical"
             >
-        <EditText
-            android:id="@+id/etNombre"
-            android:layout_marginTop="12dp"
-        android:layout_width="wrap_content"
-        android:text="Su nombre por favor"
-        android:textSize="20dp"
-        android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:hint="Su nombre por favor"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
         </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Switch
-            android:id="@+id/swPreferencias"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Usar Preferencias"
-            android:textAlignment="textEnd"
-            android:textSize="16dp"
-            android:gravity="end"
-            tools:ignore="UseSwitchCompatOrMaterialXml" />
-    </LinearLayout>
+            android:orientation="horizontal">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
+            <Switch
+                android:id="@+id/swPreferencias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usar Preferencias"
+                android:textAlignment="textEnd"
+                android:textSize="16dp"
+                android:gravity="end"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+        </LinearLayout>
 
-        >
-        <Button
-            android:id="@+id/bnGuardar"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Guardar"
-            />
-    </LinearLayout>
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            >
+            <Button
+                android:id="@+id/bnGuardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                />
+        </LinearLayout>
     </LinearLayout>
 
 
